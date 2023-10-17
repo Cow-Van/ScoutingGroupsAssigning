@@ -1,8 +1,6 @@
 import csv
-from math import ceil
-from random import randint
-from assign_groups import assign_groups
-from evaluate_groups import evaluate_groups
+from groups.assign_groups import assign_groups
+from groups.evaluate_groups import evaluate_groups
 from person import Person
 from utils import clean_data
 
